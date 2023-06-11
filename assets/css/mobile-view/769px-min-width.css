@@ -1,0 +1,214 @@
+@media (min-width: 769px) {
+  /** Width */
+
+  .w-md-5 {
+    width: 10%;
+  }
+
+  .w-md-10 {
+    width: 10%;
+  }
+
+  .w-md-15 {
+    width: 15%;
+  }
+
+  .w-md-20 {
+    width: 20%;
+  }
+
+  .w-md-25 {
+    width: 25%;
+  }
+
+  .w-md-30 {
+    width: 30%;
+  }
+
+  .w-md-35 {
+    width: 35%;
+  }
+
+  .w-md-40 {
+    width: 40%;
+  }
+
+  .w-md-45 {
+    width: 45%;
+  }
+
+  .w-md-50 {
+    width: 50%;
+  }
+
+  .w-md-55 {
+    width: 55%;
+  }
+
+  .w-md-60 {
+    width: 60%;
+  }
+
+  .w-md-65 {
+    width: 65%;
+  }
+
+  .w-md-70 {
+    width: 70%;
+  }
+
+  .w-md-75 {
+    width: 75%;
+  }
+
+  .w-md-80 {
+    width: 80%;
+  }
+
+  .w-md-85 {
+    width: 85%;
+  }
+
+  .w-md-90 {
+    width: 90%;
+  }
+
+  .w-md-95 {
+    width: 95%;
+  }
+
+  .w-md-100 {
+    width: 100%;
+  }
+
+  /** Width */
+
+  /** Height */
+
+  .h-md-5 {
+    width: 10%;
+  }
+
+  .h-md-10 {
+    width: 10%;
+  }
+
+  .h-md-15 {
+    width: 15%;
+  }
+
+  .h-md-20 {
+    width: 20%;
+  }
+
+  .h-md-25 {
+    width: 25%;
+  }
+
+  .h-md-30 {
+    width: 30%;
+  }
+
+  .h-md-35 {
+    width: 35%;
+  }
+
+  .h-md-40 {
+    width: 40%;
+  }
+
+  .h-md-45 {
+    width: 45%;
+  }
+
+  .h-md-50 {
+    width: 50%;
+  }
+
+  .h-md-55 {
+    width: 55%;
+  }
+
+  .h-md-60 {
+    width: 60%;
+  }
+
+  .h-md-65 {
+    width: 65%;
+  }
+
+  .h-md-70 {
+    width: 70%;
+  }
+
+  .h-md-75 {
+    width: 75%;
+  }
+
+  .h-md-80 {
+    width: 80%;
+  }
+
+  .h-md-85 {
+    width: 85%;
+  }
+
+  .h-md-90 {
+    width: 90%;
+  }
+
+  .h-md-95 {
+    width: 95%;
+  }
+
+  .h-md-100 {
+    width: 100%;
+  }
+
+  /** Height */
+
+  .hero {
+    padding: 90px 0 10px 0;
+  }
+
+  .hero .hero-text h2 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .hero .hero-text p {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  .notification .parent {
+    width: 40%;
+  }
+
+  .tabs-depo label {
+    min-width: 40%;
+  }
+
+  .room-chat {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .room-chat .room-chat-parent {
+    min-width: 40%;
+  }
+
+  .profile-card .sub-profile-card div:last-child h4 {
+    font-size: 17px;
+  }
+
+  .profile-card .sub-profile-card div:last-child h6 {
+    font-size: 12px;
+  }
+
+  .profile-card .sub-profile-card-level .profile-level-progress {
+    width: 20%;
+  }
+}

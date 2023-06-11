@@ -1,0 +1,26 @@
+{
+  "name": "app-efa",
+  "version": "1.0.0",
+  "description": "efa develop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jucyjoycular/efa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jucyjoycular/efa/issues"
+  },
+  "homepage": "https://github.com/jucyjoycular/efa#readme",
+  "dependencies": {
+    "jquery": "^3.6.3",
+    "jquery-bracket": "^0.11.1",
+    "lightbox2": "^2.11.3",
+    "sweetalert2": "^11.7.1"
+  }
+}

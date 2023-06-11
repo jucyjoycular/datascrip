@@ -1,0 +1,9 @@
+@media (max-width: 991px) {
+	.hero-animated .animated {
+		max-width: 60%;
+	}
+
+	.faq {
+		padding: 0;
+	}
+}

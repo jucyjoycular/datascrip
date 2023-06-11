@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
+@media (max-width: 1279px) {
+	.navbar {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		width: calc(100% - 70px);
+		bottom: 0;
+		transition: 0.3s;
+		z-index: 9997;
+	}
+
+	.navbar ul {
+		position: absolute;
+		inset: 0;
+		padding: 10px 0;
+		margin: 0;
+		background: rgba(var(--color-secondary-rgb), 0.9);
+		overflow-y: auto;
+		transition: 0.3s;
+		z-index: 9998;
+	}
+
+	.navbar a,
+	.navbar a:focus {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 12px 20px;
+		font-size: 16px;
+		font-weight: 500;
+		color: rgba(var(--color-white-rgb), 0.7);
+		white-space: nowrap;
+		transition: 0.3s;
+	}
+
+	.navbar a i,
+	.navbar a:focus i {
+		font-size: 12px;
+		line-height: 0;
+		margin-left: 5px;
+	}
+
+	.navbar a:hover,
+	.navbar .active,
+	.navbar .active:focus,
+	.navbar li:hover > a {
+		color: var(--color-white);
+	}
+
+	.navbar .dropdown ul,
+	.navbar .dropdown .dropdown ul {
+		position: static;
+		display: none;
+		padding: 10px 0;
+		margin: 10px 20px;
+		transition: all 0.5s ease-in-out;
+		border: 1px solid rgba(var(--color-secondary-light-rgb), 0.3);
+	}
+
+	.navbar .dropdown > .dropdown-active,
+	.navbar .dropdown .dropdown > .dropdown-active {
+		display: block;
+	}
+
+	.nav-search {
+		display: block !important;
+	}
+
+	.mobile-nav-toggle {
+		display: block !important;
+		color: var(--color-secondary);
+		font-size: 28px;
+		cursor: pointer;
+		line-height: 0;
+		transition: 0.5s;
+		position: fixed;
+		top: 33px;
+		z-index: 9999;
+		right: 20px;
+	}
+
+	.mobile-nav-toggle.bi-x {
+		color: var(--color-white);
+	}
+
+	.mobile-nav-active {
+		overflow: hidden;
+		z-index: 9995;
+		position: relative;
+	}
+
+	.mobile-nav-active .navbar {
+		left: 0;
+	}
+
+	.mobile-nav-active .navbar:before {
+		content: "";
+		position: fixed;
+		inset: 0;
+		background: rgba(var(--color-secondary-rgb), 0.8);
+		z-index: 9996;
+	}
+
+	.header .group-btn .btn-login,
+	.header .group-btn .btn-login:focus {
+		margin-right: 50px;
+	}
+
+	.header .group-btn .btn-sign-up,
+	.header .group-btn .btn-sign-up:focus {
+		margin-right: 50px;
+	}
+}

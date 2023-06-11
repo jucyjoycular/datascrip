@@ -1,0 +1,26 @@
+@media (min-width: 640px) {
+	.hero .carousel-control-prev {
+		padding-left: 15px;
+	}
+
+	.hero .carousel-control-next {
+		padding-right: 15px;
+	}
+
+	.hero {
+		padding: 90px 0 20px 0;
+	}
+
+	.hero .hero-text h2 {
+		margin: 0;
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 700;
+		width: 100%;
+	}
+
+	.hero .hero-text p {
+		margin-top: 10px;
+		font-size: 17px;
+	}
+}

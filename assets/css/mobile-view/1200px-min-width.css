@@ -1,0 +1,194 @@
+@media (min-width: 1200px) {
+  /** Width */
+
+  .w-xl-5 {
+    width: 10%;
+  }
+
+  .w-xl-10 {
+    width: 10%;
+  }
+
+  .w-xl-15 {
+    width: 15%;
+  }
+
+  .w-xl-20 {
+    width: 20%;
+  }
+
+  .w-xl-25 {
+    width: 25%;
+  }
+
+  .w-xl-30 {
+    width: 30%;
+  }
+
+  .w-xl-35 {
+    width: 35%;
+  }
+
+  .w-xl-40 {
+    width: 40%;
+  }
+
+  .w-xl-45 {
+    width: 45%;
+  }
+
+  .w-xl-50 {
+    width: 50%;
+  }
+
+  .w-xl-55 {
+    width: 55%;
+  }
+
+  .w-xl-60 {
+    width: 60%;
+  }
+
+  .w-xl-65 {
+    width: 65%;
+  }
+
+  .w-xl-70 {
+    width: 70%;
+  }
+
+  .w-xl-75 {
+    width: 75%;
+  }
+
+  .w-xl-80 {
+    width: 80%;
+  }
+
+  .w-xl-85 {
+    width: 85%;
+  }
+
+  .w-xl-90 {
+    width: 90%;
+  }
+
+  .w-xl-95 {
+    width: 95%;
+  }
+
+  .w-xl-100 {
+    width: 100%;
+  }
+
+  /** Width */
+
+  /** Height */
+
+  .h-xl-5 {
+    width: 10%;
+  }
+
+  .h-xl-10 {
+    width: 10%;
+  }
+
+  .h-xl-15 {
+    width: 15%;
+  }
+
+  .h-xl-20 {
+    width: 20%;
+  }
+
+  .h-xl-25 {
+    width: 25%;
+  }
+
+  .h-xl-30 {
+    width: 30%;
+  }
+
+  .h-xl-35 {
+    width: 35%;
+  }
+
+  .h-xl-40 {
+    width: 40%;
+  }
+
+  .h-xl-45 {
+    width: 45%;
+  }
+
+  .h-xl-50 {
+    width: 50%;
+  }
+
+  .h-xl-55 {
+    width: 55%;
+  }
+
+  .h-xl-60 {
+    width: 60%;
+  }
+
+  .h-xl-65 {
+    width: 65%;
+  }
+
+  .h-xl-70 {
+    width: 70%;
+  }
+
+  .h-xl-75 {
+    width: 75%;
+  }
+
+  .h-xl-80 {
+    width: 80%;
+  }
+
+  .h-xl-85 {
+    width: 85%;
+  }
+
+  .h-xl-90 {
+    width: 90%;
+  }
+
+  .h-xl-95 {
+    width: 95%;
+  }
+
+  .h-xl-100 {
+    width: 100%;
+  }
+
+  .tabs-depo label {
+    min-width: 25%;
+  }
+
+  .room-chat {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .room-chat .room-chat-parent {
+    min-width: 20%;
+  }
+
+  .profile-card .sub-profile-card div:last-child h4 {
+    font-size: 18px;
+  }
+
+  .profile-card .sub-profile-card div:last-child h6 {
+    font-size: 13px;
+  }
+
+  .profile-card .sub-profile-card-level .profile-level-progress {
+    width: 10%;
+  }
+
+  /** Height */
+}
